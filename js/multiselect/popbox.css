@@ -1,0 +1,64 @@
+.pop_textfld{width:136px; height:20px; border:1px solid #ccc;}
+.act{ color:#fff; text-decoration:none;}
+.act a{color:#fff; text-decoration:none;}
+.act a:hover{color:#fff; text-decoration:none;}
+.btn_login{width:70px; height:25px; font-family: 'Conv_COLLEGE'; 
+font-size:13px; line-height:20px; color:#003366; text-decoration:none; background:url(../../images/more.jpg) repeat-x; border:#ccc 1px solid; padding:0px 7px
+}
+.popbox {
+margin:35px auto 0 auto;
+text-align:center;
+position:relative; width:255px !important;}
+.collapse { position:relative; }
+.open {
+background:#003366;
+border:solid 1px #0071E0;color:#fff;
+/* border-radius:5px;
+box-shadow: 0px 0px 5px #CCC;
+background:-webkit-gradient(linear,left top,left bottom,from(#f4f4f4),to(#e8e8e8));
+background:-moz-linear-gradient(top,#f4f4f4,#e8e8e8);
+background:linear-gradient(top,#f4f4f4,#e8e8e8);
+padding:8px;*/
+}
+
+.box {
+display:block;
+display:none;
+background:#003366;
+border:solid 1px #0071E0;
+/* border-radius:5px;
+box-shadow:0px 0px 15px #999;*/
+position:absolute;
+width:auto; padding:10px
+}
+
+.box a.close {
+color:red;
+font-size:12px;
+font-family:arial;
+text-decoration:underline;
+}
+
+.arrow {
+width: 0;
+height: 0;
+border-left: 11px solid transparent;
+border-right: 11px solid transparent;
+border-bottom: 11px solid #FFF;
+position:absolute;
+left:1px;
+top:-10px;
+z-index:1001;
+}
+
+.arrow-border {
+width: 0;
+height: 0;
+border-left: 11px solid transparent;
+border-right: 11px solid transparent;
+border-bottom: 11px solid #BBBBBB;
+position:absolute;
+top:-12px;
+z-index:1000;
+}
+
